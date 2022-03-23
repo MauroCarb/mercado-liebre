@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #eac926;
+}
+
+body {
+  font-size: 12px;
+  background-color: #ebebeb;
+}
+
+main {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.precio {
+  font-size: 18px;
+}
+
+.descuentos,
+.nombre {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.nombre {
+  color: #666;
+  display: none;
+}
+main section p {
+  font-size: 16px;
+}
+
+/* HEADER */
+
+.top-header {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 50%;
+  padding: 10px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.form input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+.boton-lupa {
+  background-color: #ebebeb;
+  color: #666;
+  width: 8%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  min-width: 20px;
+}
+
+.barra-de-busqueda {
+  background-color: #fff;
+  color: #666;
+  padding: 2px;
+  border: 1px solid #000;
+  width: 80%;
+}
+
+header div p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.top-nav,
+.bottom-nav {
+  display: none;
+}
+
+nav {
+  padding: 15px;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header nav ul li i {
+  padding-left: 0.5%;
+}
+
+/* MENU HAMBURGUESA */
+
+div.menu-hamburguesa {
+  text-align: center;
+}
+
+div.menu-hamburguesa i {
+  background-color: #1259c3;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+/* BANNER */
+
+.banner img {
+  width: 100%;
+}
+
+/* MAIN */
+
+main section article {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px;
+}
+
+main section article img {
+  width: 100%;
+}
+
+.main-article {
+  width: 100%;
+  border-top: 1px solid #ebebeb;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.precio {
+  width: 30%;
+}
+
+.descuentos {
+  width: 70%;
+}
+
+.main-article i,
+.descuentos {
+  color: #39b54a;
+}
+
+.main-article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productos article div p {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 8%;
+  background-color: #ffffff;
+}
+
+footer section {
+  text-align: center;
+  padding: 8%;
+}
+
+footer section i {
+  color: #1259c3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+footer section p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.copyright {
+  padding-left: 0%;
+}
+
+.copyright p {
+  text-align: left;
+  color: #666;
+  padding-left: 5%;
+}
+
+/* FORMS */
+
+main form {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+main form div {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+main form div input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+/* REGISTER.HTML */
+
+.nombre-apellido input,
+.nombre-usuario input,
+.fecha-nacimiento input,
+.domicilio input,
+.password input,
+.password-confirm input {
+  width: 100%;
+}
+
+div.fecha-nacimiento {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.fecha-nacimiento label {
+  align-self: flex-start;
+  margin: 10px 0px;
+}
+
+.register h4 {
+  font-size: large;
+}
+
+.perfil-usuario {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.perfil-usuario h4 {
+  width: 100%;
+}
+
+.perfil-usuario input,
+.perfil-usuario label {
+  margin-top: 10px;
+  align-self: center;
+  margin-left: 5%;
+}
+
+.categorias-de-interes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categorias-de-interes h4 {
+  width: 100%;
+}
+
+.categorias-de-interes input {
+  width: 20%;
+}
+
+.categorias-de-interes label {
+  width: 80%;
+}
+
+.categorias-de-interes label,
+.categorias-de-interes input {
+  margin-top: 10px;
+}
+
+.avatar {
+  display: flex;
+  flex-wrap: wrap;
+}
+.avatar h4,
+.avatar label {
+  width: 100%;
+}
+
+.avatar input {
+  margin-top: 10px;
+}
+
+form div.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button button {
+  width: 40%;
+  padding: 5px 0px;
+  background-color: #1259c3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* LOGIN.HTML */
+
+.login div input,
+.login div button {
+  width: 100%;
+}
+
+.login div button {
+  padding: 5px 0px;
+  background-color: #1259c3;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 361px) {
+  .nombre {
+    display: block;
+  }
+
+  .productos article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 40%;
+  }
+
+  .top-nav,
+  .bottom-nav {
+    display: block;
+    max-width: 45%;
+  }
+
+  .menu-hamburguesa {
+    display: none;
+  }
+
+  .precio {
+    width: 60%;
+  }
+
+  .descuentos {
+    width: 40%;
+  }
+  /* HEADER */
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .bottom-nav,
+  .top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+  }
+  .bottom-nav {
+    justify-content: end;
+  }
+
+  .top-nav {
+    justify-content: start;
+  }
+
+  .top-nav li {
+    width: 24%;
+    align-self: center;
+  }
+
+  .bottom-nav li {
+    width: 33%;
+  }
+
+  header nav ul li {
+    display: flex;
+  }
+
+  header nav ul li a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+  }
+  header nav ul li a i {
+    text-align: center;
+    align-self: center;
+    width: 20%;
+  }
+
+  /* TOP HEADER*/
+
+  .logo {
+    width: 33%;
+  }
+
+  .form {
+    width: 33%;
+  }
+
+  .top-header p {
+    width: 33%;
+    align-self: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .productos article {
+    width: 22%;
+  }
+}
