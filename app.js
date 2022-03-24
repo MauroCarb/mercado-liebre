@@ -1,10 +1,11 @@
 //Los Require
 const express = require("express");
 const path = require("path");
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 
-app.listen(4000, () => console.log("Running on port 4000"));
+app.listen(PORT, () => console.log("running on port 4000"));
 
 app.use(express.static("public"));
 
